@@ -24,7 +24,7 @@ from Tschat_log.decorators import Log
 
 # Получаем серверный логгер по имени, он уже объявлен в log_config и настроен
 logger = logging.getLogger('server')
-Tschat_log = Log(logger)
+log = Log(logger)
 
 
 class Handler():
